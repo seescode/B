@@ -1,17 +1,17 @@
 {
-  "name": "@abot/super-alert",
-  "version": "2.0.0",
-  "description": "Shows an alert",
+  "name": "@abot/b",
+  "version": "1.0.0",
+  "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seescode/super-alert.git"
+    "url": "git+https://github.com/seescode/B.git"
   },
   "author": "Yong",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/seescode/super-alert/issues"
+    "url": "https://github.com/seescode/B/issues"
   },
-  "homepage": "https://github.com/seescode/super-alert#readme",
+  "homepage": "https://github.com/seescode/B#readme",
   "devDependencies": {
     "angular": "1.3.x",
     "grunt": "^0.4.5",
@@ -24,5 +24,8 @@
     "grunt-ng-annotate": "^1.0.1",
     "grunt-open": "^0.2.3",
     "load-grunt-config": "^0.19.1"
+  },
+  "dependencies": {
+    "@abot/super-alert": "^2.0.0"
   }
 }
