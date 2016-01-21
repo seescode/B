@@ -1,8 +1,14 @@
-angular.module('atom.superalert').run(['$templateCache', function($templateCache) {
+angular.module('atom.b').run(['$templateCache', function($templateCache) {
   'use strict';
 
-  $templateCache.put('/directives/superAlert/superAlert.html',
-    "<button ng-click=\"click()\">Alert!</button>"
+  $templateCache.put('/directives/b/b.html',
+    "<div>\r" +
+    "\n" +
+    "    <h3>B</h3>\r" +
+    "\n" +
+    "    <super-alert></super-alert>    \r" +
+    "\n" +
+    "</div>"
   );
 
 }]);

@@ -26484,4 +26484,43 @@ angular.module('atom.superalert').run(['$templateCache', function($templateCache
     };
     angular.module('atom.superalert').directive('superAlert', superAlert);
 })();
-//# sourceMappingURL=superAlert.js.map
+(function () {
+	'use strict';
+
+	angular.module('atom.b', ['atom.superalert']);
+
+})();
+angular.module('atom.b').run(['$templateCache', function($templateCache) {
+  'use strict';
+
+  $templateCache.put('/directives/b/b.html',
+    "<div>\r" +
+    "\n" +
+    "    <h3>B</h3>\r" +
+    "\n" +
+    "    <super-alert></super-alert>    \r" +
+    "\n" +
+    "</div>"
+  );
+
+}]);
+
+(function () {
+    'use strict';
+    
+
+    function b() {
+        return {
+            restrict: 'E',
+            //scope: {
+            //},
+            replace: false,
+            templateUrl: '/directives/b/b.html',
+            link: function (scope, element, attrs) {
+  
+            }
+        };
+    };
+    angular.module('atom.b').directive('b', b);
+})();
+//# sourceMappingURL=b.js.map
