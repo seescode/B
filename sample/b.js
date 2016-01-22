@@ -26477,12 +26477,12 @@ angular.module('atom.superalert').run(['$templateCache', function($templateCache
             templateUrl: '/directives/superAlert/superAlert.html',
             link: function (scope, element, attrs) {
                 scope.click = function() {
-                    alert('super alert 4');
+                    alert('major version 3!');
                 };
             }
         };
     };
-    angular.module('atom.superalert').directive('superAlert', superAlert);
+    angular.module('atom.superalert').directive('superAlert3', superAlert);
 })();
 (function () {
 	'use strict';
@@ -26498,7 +26498,7 @@ angular.module('atom.b').run(['$templateCache', function($templateCache) {
     "\n" +
     "    <h3>B</h3>\r" +
     "\n" +
-    "    <super-alert></super-alert>    \r" +
+    "    <super-alert3></super-alert3>    \r" +
     "\n" +
     "</div>"
   );
