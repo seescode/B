@@ -6,7 +6,7 @@ angular.module('atom.b').run(['$templateCache', function($templateCache) {
     "\n" +
     "    <h3>B</h3>\r" +
     "\n" +
-    "    <super-alert3></super-alert3>    \r" +
+    "    <super-alert5></super-alert3>    \r" +
     "\n" +
     "</div>"
   );
