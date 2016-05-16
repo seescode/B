@@ -1,5 +1,4 @@
 module.exports = {
-  bump: {
     options: {
       files: ['package.json'],
       updateConfigs: [],
@@ -10,12 +9,11 @@ module.exports = {
       tagName: 'v%VERSION%',
       tagMessage: 'Version %VERSION%',
       push: true,
-      pushTo: 'upstream',
+      pushTo: 'origin',
       gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
       globalReplace: false,
       prereleaseName: false,
       metadata: '',
       regExp: false
     }
-  }
 };
