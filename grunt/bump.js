@@ -1,10 +1,10 @@
 module.exports = {
     options: {
-      files: ['package.json', 'dist'],
+      files: ['package.json'],
       updateConfigs: [],
       commit: true,
       commitMessage: 'Release v%VERSION%',
-      commitFiles: ['package.json'],
+      commitFiles: ['package.json', 'dist/**/*', 'dist/*'],
       createTag: true,
       tagName: 'v%VERSION%',
       tagMessage: 'Version %VERSION%',
