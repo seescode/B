@@ -2,7 +2,7 @@ angular.module('atom.b').run(['$templateCache', function($templateCache) {
   'use strict';
 
   $templateCache.put('/directives/b/b.html',
-    "<div>\r" +
+    "<div>\r    " +
     "\n" +
     "    <h3>B</h3>\r" +
     "\n" +
