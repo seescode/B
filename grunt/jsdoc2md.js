@@ -1,7 +1,7 @@
 module.exports = {
 	oneOutputFile: {
 		expand: true,
-		src: 'SRC/**/*.js',
+		src: ['SRC/**/*.js', '!SRC/*.js'],
 		dest: 'SRC/', 
 		rename: function(dest, src) {
 			// use the source directory to create the file
@@ -12,6 +12,5 @@ module.exports = {
 			console.log(src.replace(/[a-zA-Z0-9 _-]+.js/, 'readme.md'));
 			return src.replace(/[a-zA-Z0-9 _-]+.js/, 'readme.md');
 		}
-
 	}
 };
